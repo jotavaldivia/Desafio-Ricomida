@@ -1,0 +1,112 @@
+body {
+    font-family: 'Cabin', sans-serif;
+}
+
+.logo {
+    font-family: 'Lobster', cursive;
+    font-size: 37px;
+}
+
+.logo-span {
+    font-family: 'Lobster', cursive;
+}
+
+@media (min-width:1024px) {
+    .nav-pad {
+        padding: 0 150px;
+    }
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #373A3C;
+}
+
+@media (max-width:600px) {
+    .pizza-sub {
+        text-align: center;
+    }
+}
+
+h2 {
+    font-size: 20px;
+    color: #373A3C;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.principal {
+    width: 482px;
+}
+
+.tooltip-inner {
+    background: #343a40;
+}
+
+.tooltip.bs-tooltip-right .arrow:before {
+    border-right-color: #343a40;
+}
+
+.tooltip.bs-tooltip-bottom .arrow:before {
+    border-bottom-color: #343a40;
+}
+
+hr {
+    border: 1px solid #000;
+}
+
+
+.carousel-indicators li {
+    border-radius: 50%;
+    height: 13px;
+    width: 13px;
+    background: #373A3C31;
+    border: 0;
+}
+
+.carrusel .carousel-indicators {
+    left: 0;
+    top: auto;
+    bottom: -60px;
+}
+
+.carrusel .carousel-indicators .active {
+    background: #373A3C;
+}
+
+
+.receta {
+    font-size: 20px;
+}
+
+.bajada {
+    width: 25%;
+    margin-left: 0;
+}
+
+.title-plato {
+    font-size: 23px;
+    font-weight: 700;
+    color: #373A3C;
+}
+
+p {
+    color: #373A3C;
+    font-weight: 400;
+}
+
+.newsletter {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.pad-but {
+    padding-right: 85px;
+    padding-left: 85px;
+}
